@@ -1,0 +1,5 @@
+import Impressora;
+
+public class Deskjet extends Impressora {
+
+}

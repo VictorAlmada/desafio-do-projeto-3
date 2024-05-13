@@ -1,0 +1,17 @@
+
+public class FacebookMessenger {
+	public void enviarMensagem() {
+		validarConectadoInternet();
+		System.out.println("Enviando mensagem pelo facebook messenger");
+		salvarHistoricoMensagem();
+	}
+	public void receberMensagem() {
+		System.out.println("Recebendo mensagem pelo facebook messenger");
+	}
+	private void validarConectadoInternet() {
+		System.out.println("Validando conexão com internet");
+	}
+	private void salvarHistoricoMensagem() {
+		System.out.println("Salvando o histórico de mensagens");
+	}
+}

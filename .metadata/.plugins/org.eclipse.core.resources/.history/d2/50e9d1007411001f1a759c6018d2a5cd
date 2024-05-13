@@ -1,0 +1,7 @@
+
+public class Digitalizadora {
+	//mét
+		public void digitalizar() {
+			System.out.println("Digitalizando...");
+		}
+}

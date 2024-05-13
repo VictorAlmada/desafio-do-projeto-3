@@ -1,0 +1,10 @@
+package intro_poo;
+
+public class Carro {
+	public void ligar() {
+		System.out.println("carro ligado");
+	}
+	public void confereCombustivel() {
+		System.out.println("conferindo combustivel");
+	}
+}

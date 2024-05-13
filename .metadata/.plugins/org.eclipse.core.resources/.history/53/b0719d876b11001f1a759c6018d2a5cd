@@ -1,0 +1,9 @@
+
+
+public class ServicoMensagemInstantanea {
+	MSNMessenger msn = new MSNMessenger();
+					
+			msn.enviarMensagem();
+			msn.receberMensagem();
+	
+}

@@ -1,0 +1,24 @@
+package intro_poo;
+
+public class Carro {
+	//atr
+	private String chassi;
+	
+	//get/set
+	public void setChassi(String chassi) {
+		this.chassi = chassi;
+	}
+	
+	//mét
+	public void ligar() {
+		confereCambio();
+		confereCombustivel();
+		System.out.println("carro ligado");
+	}
+	private void confereCombustivel() {
+		System.out.println("conferindo combustivel");
+	}
+	private void confereCambio() {
+		System.out.println("conferindo cambio em P");
+	}
+}

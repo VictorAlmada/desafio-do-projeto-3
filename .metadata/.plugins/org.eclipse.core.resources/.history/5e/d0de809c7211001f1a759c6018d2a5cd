@@ -1,0 +1,46 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+import apps.FacebookMessenger;
+import apps.MSNMessenger;
+import apps.ServicoMensagemInstantanea;
+import apps.Telegram;
+
+public class ComputadorPedrinho {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		ServicoMensagemInstantanea smi = null;
+		
+		System.out.print("Escolha o app (msn/fcb/tlg): ");
+		String appEscolhido = sc.nextLine();
+		
+		switch (appEscolhido) {
+		case "msn": {
+			smi = new MSNMessenger();
+			break;
+		}
+		case "fcb": {
+			smi = new FacebookMessenger();
+			break;
+		}
+		case "tlg": {
+			smi = new Telegram();
+			break;
+		}
+		default: {
+			System.out.println("Opção inválida!");
+		}
+		}
+		
+		if (smi != null) {
+			smi.enviarMensagem();
+			smi.receberMensagem();
+		
+		sc.close();
+		}
+
+}
+}

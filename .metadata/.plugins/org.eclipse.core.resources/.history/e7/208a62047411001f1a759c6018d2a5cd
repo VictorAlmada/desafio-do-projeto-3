@@ -1,0 +1,7 @@
+
+public class Copiadora {
+	//mét
+		public void copiar() {
+			System.out.println("Copiando...");
+		}
+}

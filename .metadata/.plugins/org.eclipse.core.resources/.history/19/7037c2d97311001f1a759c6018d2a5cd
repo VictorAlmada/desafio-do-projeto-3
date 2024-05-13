@@ -1,0 +1,5 @@
+import equipamentos.impressora.Impressora;
+
+public class Laserjet extends Impressora {
+
+}

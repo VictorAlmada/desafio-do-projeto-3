@@ -1,0 +1,9 @@
+
+
+public class Snippet {
+	MSNMessenger msn = new MSNMessenger();
+					
+			msn.enviarMensagem();
+			msn.receberMensagem();
+	
+}

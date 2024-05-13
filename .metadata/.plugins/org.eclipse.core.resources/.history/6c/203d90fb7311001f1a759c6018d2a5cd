@@ -1,0 +1,8 @@
+
+
+public class Impressora {
+	//mét
+	public void imprimir() {
+		System.out.println("Imprimindo...");
+	}
+}

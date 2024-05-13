@@ -1,0 +1,11 @@
+package intro_poo;
+
+public class Veiculo {
+	//atr
+	private String chassi;
+	
+	//get/set
+	public void setChassi(String chassi) {
+		this.chassi = chassi;
+	}
+}

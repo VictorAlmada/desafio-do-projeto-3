@@ -1,0 +1,14 @@
+package usuarios;
+
+import equipamento_multifuncional.Iphone;
+
+public class Usuario1 {
+
+	public static void main(String[] args) {
+		Iphone iphone1 = new Iphone();
+		
+		iphone1.ligar();
+
+	}
+
+}
